@@ -6,6 +6,17 @@ AccuRates delivers globally sourced Forex data refreshed every 60 seconds, with 
 
 If your product needs consistent, up-to-date exchange rates inside its core logic, without requiring a dedicated finance team, AccuRates is built for that use case.
 
+## 🌟 Quick Start 
+
+import requests
+
+response = requests.get(
+    "https://currencyconverter9.p.rapidapi.com/convert",
+    params={"from": "USD", "to": "EUR", "amount": "100"},
+    headers={"x-rapidapi-key": "YOUR_API_KEY"}
+)
+print(response.json())
+
 ## 🌟 Key Features
 ##### ⚡ 60-Second Live Updates
 

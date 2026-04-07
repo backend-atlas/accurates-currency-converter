@@ -6,7 +6,7 @@ AccuRates delivers globally sourced Forex data refreshed every 60 seconds, with 
 
 If your product needs consistent, up-to-date exchange rates inside its core logic, without requiring a dedicated finance team, AccuRates is built for that use case.
 
-🌟 Quick Start
+## 🌟 Quick Start
 
 ```
 import requests

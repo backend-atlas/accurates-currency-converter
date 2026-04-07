@@ -8,7 +8,8 @@ If your product needs consistent, up-to-date exchange rates inside its core logi
 
 🌟 Quick Start
 
-```import requests
+```
+import requests
 
 response = requests.get( 
     "https://currencyconverter9.p.rapidapi.com/convert", 

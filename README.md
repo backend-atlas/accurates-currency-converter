@@ -33,10 +33,6 @@ Wide coverage across all major, minor, and exotic global currencies.
 
 Aggregated data from 20+ trustworthy central banks and global financial institutions for unmatched accuracy:
 
-##### 🚀 Ultra-Low Latency (Avg. ~100ms)
-
-Optimized for speed with globally distributed infrastructure delivering average responses around 100 milliseconds, even during peak load.
-
 ##### 📚 55 Years of Historical Data
 
 Historical rates available for most currency pairs back to the 1960s.
@@ -113,9 +109,6 @@ Rates are intended for application use, not official financial reporting or regu
 - Fast integration & predictable pricing for developers
 - Developer-first documentation
 
-## 📌 Try AccuRates API
-You can try AccuRates API **[here](https://rapidapi.com/TockaAyman/api/currencyconverter9)**  
-
 ## 🔐 Authentication
 
 Requests are authenticated using the standard RapidAPI API key header: `x-rapidapi-key: YOUR_API_KEY`
@@ -130,7 +123,7 @@ Below is the full list of available REST endpoints.
 - GET `/fetch-multi` → Fetch multiple currency rates at once
 
 ##### 📌 Conversions (Single & Advanced Multi-Currency)
-- GET `/convert` → Convert an amount of one currency into another currency
+- GET `/convert` → Convert an amount of one currency into another currency (start here)
 - GET `/fetch-many-to-one` → Fetch a set of many source currency rates to a single target currency (inverse of /fetch-multi). Midpoint spot rates. 
 - GET /`fetch-matrix` → Fetch a matrix of multiple from/to currency pairs. Midpoint spot rates. 
 
@@ -142,25 +135,9 @@ Below is the full list of available REST endpoints.
 - GET `/time-series` → Fetch a time-series dataset of currency rates for the specified interval (only daily supported currently)
 
 ## 🧪 Example Usage
-##### 1. Fetch a Live Exchange Rate (USD → EUR)
-`GET https://accurates-currency-converter.p.rapidapi.com/fetch-one?from=USD&to=EUR`
+##### 1. Convert Between Two Currencies
 
-Response
-
-```json
-{
-    "base": "USD",
-    "result": {
-        "EUR": 0.8686
-    },
-    "updated": "2025-11-21 23:57:22",
-    "ms": 7
-}
-```
-
-##### 2. Convert Between Two Currencies
-
-`GET https://accurates-currency-converter.p.rapidapi.com/convert?from=USD&to=EUR&amount=100`
+`GET https://currencyconverter9.p.rapidapi.com/convert?from=USD&to=EUR&amount=100`
 
 Response
 
@@ -176,8 +153,24 @@ Response
 }
 ```
 
+##### 2. Fetch a Live Exchange Rate (USD → EUR)
+`GET https://currencyconverter9.p.rapidapi.com/fetch-one?from=USD&to=EUR`
+
+Response
+
+```json
+{
+    "base": "USD",
+    "result": {
+        "EUR": 0.8686
+    },
+    "updated": "2025-11-21 23:57:22",
+    "ms": 7
+}
+```
+
 ##### 3. Fetch Multiple Currency Pairs
-`GET https://accurates-currency-converter.p.rapidapi.com/fetch-multi?from=EUR&to=GBP,CAD`
+`GET https://currencyconverter9.p.rapidapi.com/fetch-multi?from=EUR&to=GBP,CAD`
 
 Response
 ```json
@@ -193,7 +186,7 @@ Response
 ```
 
 ##### 4. Fetch Historical Rate
-`GET https://accurates-currency-converter.p.rapidapi.com/historical?date=1991-10-23&from=EUR&to=GBP,CAD`
+`GET https://currencyconverter9.p.rapidapi.com/historical?date=1991-10-23&from=EUR&to=GBP,CAD`
 
 Response
 
@@ -210,7 +203,7 @@ Response
 ```
 
 ##### 5. Time-Series Example
-`GET https://accurates-currency-converter.p.rapidapi.com/time-series?start=1991-11-23&end=1991-11-23&from=EUR&to=GBP`
+`GET https://currencyconverter9.p.rapidapi.com/time-series?start=1991-11-23&end=1991-11-23&from=EUR&to=GBP`
 
 Reponse
 
@@ -300,3 +293,4 @@ Developer support available for all paid plans through:
 
 - RapidAPI Messaging
 - Email
+  

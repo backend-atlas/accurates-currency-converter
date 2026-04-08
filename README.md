@@ -109,6 +109,10 @@ Rates are intended for application use, not official financial reporting or regu
 - Fast integration & predictable pricing for developers
 - Developer-first documentation
 
+## 📌 Try AccuRates API
+
+You can try AccuRates API **[here](https://rapidapi.com/TockaAyman/api/currencyconverter9)**  
+
 ## 🔐 Authentication
 
 Requests are authenticated using the standard RapidAPI API key header: `x-rapidapi-key: YOUR_API_KEY`

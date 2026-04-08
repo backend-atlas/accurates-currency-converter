@@ -287,9 +287,9 @@ You sent too many requests within your plan’s allowed timeframe.
 
 ### 📘 OpenAPI / Swagger Documentation
 
-You can view the full interactive API documentation here: **[Swagger UI Viewer](https://petstore.swagger.io/?url=https://raw.githubusercontent.com/tayman12/AccuRates-Currency-Converter/main/openapi.yaml)**  
+You can view the full interactive API documentation here: **[Swagger UI Viewer](https://petstore.swagger.io/?url=https://raw.githubusercontent.com/tayman12/accurates-currency-converter/main/openapi.yaml)**  
 
-Or download the specification directly here **[Swagger File](https://raw.githubusercontent.com/tayman12/AccuRates-Currency-Converter/main/openapi.yaml)**
+Or download the specification directly here **[Swagger File](https://raw.githubusercontent.com/tayman12/accurates-currency-converter/main/openapi.yaml)**
 
 ## 📮 Support / Contact
 
